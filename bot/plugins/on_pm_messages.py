@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
 from pyrogram import (
     Client,
     filters
@@ -27,7 +10,7 @@ from pyrogram.errors import (
     UserNotParticipant
 )
 from bot import (
-    AUTH_CHANNEL,
+    OWNER_ID,
     SUB_CHANNEL,
     COMMM_AND_PRE_FIX,
     IS_BLACK_LIST_ED_MESSAGE_TEXT,
@@ -46,7 +29,7 @@ from bot.sql.blacklist_sql import (
 
 @Bot.on_message(
     ~filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    ~uszkhvis_chats_ahndler([AUTH_CHANNEL]) &
+    ~uszkhvis_chats_ahndler([OWNER_ID]) &
     filters.incoming &
     filters.private
 )
@@ -73,14 +56,14 @@ async def on_pm_s(client: Bot, message: Message):
         if ym:
             reply_to_message_id = ym.message_id
         await message.copy(
-            chat_id=AUTH_CHANNEL,
+            chat_id=OWNER_ID,
             disable_notification=True,
             reply_to_message_id=reply_to_message_id,
             reply_markup=message.reply_markup
         )
     else:
         fwded_mesg = await message.forward(
-            chat_id=AUTH_CHANNEL,
+            chat_id=OWNER_ID,
             disable_notification=True
         )
 
