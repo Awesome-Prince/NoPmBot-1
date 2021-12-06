@@ -30,9 +30,9 @@ API_HASH = get_config("API_HASH", should_prompt=True)
 APP_ID = get_config("APP_ID", should_prompt=True)
 # get a token from @BotFather
 TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
-# array to store the channel ID who are authorized to use the bot
-AUTH_CHANNEL = int(get_config(
-        "AUTH_CHANNEL",
+# Seperate User ID who are authorized to use the bot
+OWNER_ID = int(get_config(
+        "OWNER_ID",
         "-100",
         should_prompt=True
     )
