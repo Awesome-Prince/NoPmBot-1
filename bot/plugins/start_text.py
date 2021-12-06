@@ -6,7 +6,7 @@ from pyrogram.types import (
     Message
 )
 from bot import (
-    AUTH_CHANNEL,
+    OWNER_ID,
     COMMM_AND_PRE_FIX,
     START_COMMAND
 )
@@ -24,7 +24,7 @@ I Am Working Properly With Awesome Speed
 
 @Bot.on_message(
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
+    ~uszkhvis_chats_ahndler([OWNER_ID])
 )
 async def num_start_message(client: Bot, message: Message):
     await message.reply_text(
@@ -35,7 +35,7 @@ async def num_start_message(client: Bot, message: Message):
 
 @Bot.on_message(
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    uszkhvis_chats_ahndler([AUTH_CHANNEL])
+    uszkhvis_chats_ahndler([OWNER_ID])
 )
 async def nimda_start_message(_, message: Message):
     await message.reply_text(
