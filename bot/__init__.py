@@ -80,16 +80,6 @@ START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
     0
 ))
-# check online status of your bot
-ONLINE_CHECK_START_TEXT = get_config(
-    "ONLINE_CHECK_START_TEXT",
-    (
-        "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
-    )
-)
 # message to indicate,
 # if any message was deleted by the user
 # so as to prevent replying to that message
