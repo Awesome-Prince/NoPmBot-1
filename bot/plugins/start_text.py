@@ -13,12 +13,13 @@ from bot import (
 from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
+# wants to add your own text read this https://core.telegram.org/bots/api#html-style 
 START_TEXT = """
 ───「 <a href="https://telegra.ph/file/de0013d013b55c4676a36.jpg">AASFCYBERKING</a> 」───
-<b>Hey Whassup! ,
-You Can Ask Any Help Or Any Doubt Here I Will Reply You Soon As Possible</b>
+<b>Hey Master! ,
+I Am Working Properly With Awesome Speed
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-<code>You Can Contact @AASFCYBERKING With This Bot</code>
+<code>My Repo Is Public</code> <a href="https://github.com/AASFCYBERKING/NoPmBot">Here</a>
 """
 
 @Bot.on_message(
