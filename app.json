@@ -25,8 +25,8 @@
     "TG_BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather"
     },
-    "AUTH_CHANNEL": {
-      "description": "List down the user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @OwnErObOT"
+    "OWNER_ID": {
+      "description": "Seperate user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @SerenaYvonneRobot"
     },
     "SUB_CHANNEL": {
       "description": "Id of Chat, where the User Should Join, in order to use/contact throught bot."
