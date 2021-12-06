@@ -31,6 +31,13 @@ from bot import (
 from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
+START_TEXT = """
+───「 <a href="https://telegra.ph/file/de0013d013b55c4676a36.jpg">AASFCYBERKING</a> 」───
+<b>Hey Whassup! ,
+You Can Ask Any Help Or Any Doubt Here I Will Reply You Soon As Possible</b>
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+<code>You Can Contact @AASFCYBERKING With This Bot</code>
+"""
 
 @Bot.on_message(
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
@@ -49,6 +56,6 @@ async def num_start_message(client: Bot, message: Message):
 )
 async def nimda_start_message(_, message: Message):
     await message.reply_text(
-        ONLINE_CHECK_START_TEXT,
+        START_TEXT,
         quote=True
     )
