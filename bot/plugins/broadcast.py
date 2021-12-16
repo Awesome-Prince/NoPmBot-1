@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from bot import AUTH_CHANNEL, COMMM_AND_PRE_FIX, BROADCAST_COMMAND
+from bot import OWNER_ID, COMMM_AND_PRE_FIX, BROADCAST_COMMAND
 from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 from bot.sql.users_sql import get_chats
@@ -9,7 +9,7 @@ from bot.sql.users_sql import get_chats
 
 @Bot.on_message(
     filters.command(BROADCAST_COMMAND, COMMM_AND_PRE_FIX)
-    & uszkhvis_chats_ahndler([AUTH_CHANNEL])
+    & uszkhvis_chats_ahndler([OWNER_ID])
 )
 async def num_start_message(client: Bot, message: Message):
     if not message.reply_to_message:
