@@ -10,12 +10,12 @@ from bot import (
     COMMM_AND_PRE_FIX,
     START_COMMAND
 )
-from bot.bot import Bot
+from bot.bot import Bot, usr_bot_me 
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
 # wants to add your own text read this https://core.telegram.org/bots/api#html-style 
 START_TEXT = """
-──「 <a href="https://telegra.ph/file/de0013d013b55c4676a36.jpg">AASFCYBERKING</a> 」──
+──「 <a href="https://telegra.ph/file/de0013d013b55c4676a36.jpg">{usr_bot_me.username}</a> 」──
 <b>Hey Master! ,</b>
 <b>I Am Working Properly With Awesome Speed</b>
 <b>➖➖➖➖➖➖➖➖➖➖➖➖➖</b>
