@@ -42,7 +42,7 @@ async def on_pm_s(client: Bot, message: Message):
             )
         )
         return
-   try:
+    try:
         await client.get_chat_member(SUB_CHANNEL, message.from_user.id)
     except UserNotParticipant:
         return await message.reply_text(f"You Need to Join @{SUB_CHANNEL} To Use Me.")
