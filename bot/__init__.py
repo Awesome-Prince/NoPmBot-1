@@ -72,7 +72,7 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "🚫 You Have Been <b>Banned</b> Forever.\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
+        "<b>✅ You Have Been Un-Banned</b>\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -84,8 +84,7 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "✅ You Have Been <b>Un-Banned</b>.\n\n"
-        "⚜️ <u>Reason</u>: <code>{reason}</code>"
+        "<b>🚫 You Have Been Banned Forever.</b>\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
