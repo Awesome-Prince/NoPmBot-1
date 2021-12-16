@@ -61,9 +61,9 @@ class Bot(Client):
                 self.commandi[START_COMMAND] = check_m.text.html
         self.LOGGER(__name__).info(
             f"@{usr_bot_me.username} based on Pyrogram v{__version__} "
-            "Try /start."
+            "© 2022 - 2023 @Aasfcyberking."
         )
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("NoPMsBot stopped. Bye.")
+        self.LOGGER(__name__).info("BOT STOPPED.")
