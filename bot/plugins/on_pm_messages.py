@@ -42,7 +42,6 @@ async def on_pm_s(client: Bot, message: Message):
             )
         )
         return
-    if SUB_CHANNEL != @Aasfcyberking:
       try:
         await client.get_chat_member(SUB_CHANNEL, message.from_user.id)
       except UserNotParticipant:
