@@ -22,7 +22,7 @@ OWNER_ID = int(get_config(
     )
 )
 # channel/chat to join before contacting
-SUB_CHANNEL = int(get_config("SUB_CHANNEL", "Aasfcyberking"))
+SUB_CHANNEL = int(get_config("SUB_CHANNEL")
 # sqlalchemy Database for the bot to operate
 DB_URI = get_config(
     "DATABASE_URL",
