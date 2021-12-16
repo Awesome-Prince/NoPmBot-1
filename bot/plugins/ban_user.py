@@ -11,7 +11,6 @@ from bot import (
     BAN_COMMAND,
     BOT_WS_BLOCKED_BY_USER,
     COMMM_AND_PRE_FIX,
-    IS_BLACK_LIST_ED_MESSAGE_TEXT,
     REASON_DE_LIMIT_ER
 )
 from bot.hf.fic import vhkzuoi_repliz_handler
@@ -20,6 +19,9 @@ from bot.hf.stuf import get_tle_mof_t
 from bot.sql.users_sql import get_user_id
 from bot.sql.blacklist_sql import add_user_to_bl
 
+BAN = f"""
+🚫 You Have Been <b>Banned</b> Forever.\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
+"""
 
 @Client.on_message(
     filters.command(BAN_COMMAND, COMMM_AND_PRE_FIX) &
@@ -34,7 +36,7 @@ async def ban_command(client: Client, message: Message):
         return
     _, ban_reason = get_tle_mof_t(message.text)
     add_user_to_bl(user_id, ban_reason)
-    black_list_message = IS_BLACK_LIST_ED_MESSAGE_TEXT.format(
+    black_list_message = BAN.format(
         reason=ban_reason
     )
     if not ban_reason:
