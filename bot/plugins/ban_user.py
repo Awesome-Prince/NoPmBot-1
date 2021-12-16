@@ -19,7 +19,7 @@ from bot.hf.stuf import get_tle_mof_t
 from bot.sql.users_sql import get_user_id
 from bot.sql.blacklist_sql import add_user_to_bl
 
-BAN = "🚫 You Have Been <b>Banned</b> Forever.\n\n<u>⚜️ Reason</u>: <code>{reason}</code>""
+BAN = "🚫 You Have Been <b>Banned</b> Forever.\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
 
 @Client.on_message(
     filters.command(BAN_COMMAND, COMMM_AND_PRE_FIX) &
