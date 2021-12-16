@@ -42,13 +42,11 @@ async def on_pm_s(client: Bot, message: Message):
             )
         )
         return
-    if SUB_CHANNEL != -100:
+    if SUB_CHANNEL != @Aasfcyberking:
       try:
         await client.get_chat_member(SUB_CHANNEL, message.from_user.id)
       except UserNotParticipant:
-          chat = await client.get_chat(SUB_CHANNEL)
-          username = f" [@{chat.username}] " if chat.username else ""
-          return await message.reply_text(f"You Need to Join {chat.title}{username} To Use Me.")
+          return await message.reply_text(f"You Need to Join @{SUB_CHANNEL} To Use Me.")
     fwded_mesg = None
     if message.edit_date:
         ym = get_chek_dmid(message.message_id)
