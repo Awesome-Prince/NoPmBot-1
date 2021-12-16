@@ -46,17 +46,6 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # broadcast command
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
-# default message in-case of None types
-DEFAULT_START_TEXT = (
-"<b>Whassup Buddy !"
-"Thx For Using Me </b><a href="https://telegra.ph/file/ffa6d8f6d209113283d98.jpg">🙏</a>"
-
-"<b>You Can Contact My</b> <a href="https://github.com/AASFCYBERKING/NoPmBot">Owner</a> <b>By Me</b>"
-
-"<a href="https://github.com/AASFCYBERKING/NoPmBot">My Repo Was Public Click Here 🌹</a>"
-
-"<b>The Legend Who Created Me Is </b>@Aasfcyberking 🖤"
-)
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
