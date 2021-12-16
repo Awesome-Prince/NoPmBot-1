@@ -48,16 +48,14 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
-    "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-    "If you are the owner of this bot, "
-    "and are seeing this message 🤦‍♂️, "
-    "means that you have not set up "
-    "the ENVironment variables properly "
-    "for the bot to function.\n\n\n"
-    "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+"<b>Whassup Buddy !"
+"Thx For Using Me </b><a href="https://telegra.ph/file/ffa6d8f6d209113283d98.jpg">🙏</a>"
+
+"<b>You Can Contact My</b> <a href="https://github.com/AASFCYBERKING/NoPmBot">Owner</a> <b>By Me</b>"
+
+"<a href="https://github.com/AASFCYBERKING/NoPmBot">My Repo Was Public Click Here 🌹</a>"
+
+"<b>The Legend Who Created Me Is </b>@Aasfcyberking 🖤"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
