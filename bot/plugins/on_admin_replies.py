@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
 from pyrogram import (
     Client,
     filters
@@ -24,7 +7,7 @@ from pyrogram.types import (
 )
 from pyrogram.errors.exceptions import UserIsBlocked
 from bot import (
-    AUTH_CHANNEL,
+    OWNER_ID,
     BAN_COMMAND,
     BOT_WS_BLOCKED_BY_USER,
     COMMM_AND_PRE_FIX,
@@ -47,7 +30,7 @@ from bot.sql.users_sql import (
     ~filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
     ~filters.command(BAN_COMMAND, COMMM_AND_PRE_FIX) &
     ~filters.command(UN_BAN_COMMAND, COMMM_AND_PRE_FIX) &
-    uszkhvis_chats_ahndler([AUTH_CHANNEL]) &
+    uszkhvis_chats_ahndler([OWNER_ID]) &
     vhkzuoi_repliz_handler
 )
 async def on_pm_s(client: Client, message: Message):
