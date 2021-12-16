@@ -12,7 +12,7 @@ from bot import (
     LOGGER,
     START_COMMAND,
     START_OTHER_USERS_TEXT,
-    TG_BOT_TOKEN,
+    TOKEN,
     TG_BOT_WORKERS
 )
 
@@ -26,7 +26,7 @@ class Bot(Client):
             "NoPMsBot",
             api_hash=API_HASH,
             api_id=APP_ID,
-            bot_token=TG_BOT_TOKEN,
+            bot_token=TOKEN,
             plugins={
                 "root": "bot/plugins"
             },
