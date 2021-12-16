@@ -70,10 +70,10 @@ START_OTHER_USERS_TEXT = int(get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "this message was deleted\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "<b>This Message Was Deleted 🗑️</b>\n\n"
+        "<b>This Is An Open Source Project Available On </b>"
+        "https://github.com/AASFCYBERKING/NoPMBot\n\n\n"
+        "<b>Any Issues Or Bug </b>@Aasfcyberking 🖤"
     )
 )
 # IDEKWBYRW
