@@ -85,8 +85,7 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "🚫 You Have Been <b>Banned</b> Forever.\n\n"
-        "<u>⚜️ Reason</u>: <code>{reason}</code>"
+        "🚫 You Have Been <b>Banned</b> Forever.\n\n<u>⚜️ Reason</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
