@@ -10,7 +10,7 @@ from bot import (
     COMMM_AND_PRE_FIX,
     START_COMMAND
 )
-from bot.bot import Bot, usr_bot_me 
+from bot.bot import Bot 
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
 # wants to add your own text read this https://core.telegram.org/bots/api#html-style 
