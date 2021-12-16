@@ -22,7 +22,7 @@
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal"
     },
-    "TG_BOT_TOKEN": {
+    "TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather"
     },
     "OWNER_ID": {
