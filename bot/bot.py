@@ -8,7 +8,6 @@ from bot import (
     API_HASH,
     APP_ID,
     OWNER_ID,
-    DEFAULT_START_TEXT,
     LOGGER,
     START_COMMAND,
     START_OTHER_USERS_TEXT,
@@ -16,6 +15,17 @@ from bot import (
     TG_BOT_WORKERS
 )
 
+
+START_TEXT = """
+<b>Whassup Buddy !
+Thx For Using Me </b><a href="https://telegra.ph/file/ffa6d8f6d209113283d98.jpg">🙏</a>
+
+<b>You Can Contact My</b> <a href="https://github.com/AASFCYBERKING/NoPmBot">Owner</a> <b>By Me</b>
+
+<a href="https://github.com/AASFCYBERKING/NoPmBot">My Repo Was Public Click Here 🌹</a>
+
+<b>The Legend Who Created Me Is </b>@Aasfcyberking 🖤
+"""
 
 class Bot(Client):
     """ modded client for NoPMsBot """
@@ -45,7 +55,7 @@ class Bot(Client):
                 replies=0
             )
         except ValueError:
-            self.commandi[START_COMMAND] = DEFAULT_START_TEXT
+            self.commandi[START_COMMAND] = START_TEXT
         else:
             if check_m:
                 self.commandi[START_COMMAND] = check_m.text.html
