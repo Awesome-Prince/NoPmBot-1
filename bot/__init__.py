@@ -13,7 +13,7 @@ load_dotenv("config.env")
 API_HASH = get_config("API_HASH", should_prompt=True)
 APP_ID = get_config("APP_ID", should_prompt=True)
 # get a token from @BotFather
-TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
+TOKEN = get_config("TOKEN", should_prompt=True)
 # Seperate User ID who are authorized to use the bot
 OWNER_ID = int(get_config(
         "OWNER_ID",
