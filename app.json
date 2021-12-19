@@ -16,34 +16,42 @@
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal"
+      "required": true,
       "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal"
+      "required": true,
       "value": ""
     },
     "TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather"
+      "required": true,
       "value": ""
     },
     "OWNER_ID": {
       "description": "Seperate user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram Any Bot"
+      "required": true,
       "value": "2022280326"
     },
     "START_IMG": {
       "description": "A Telegraph Link Wen Owner Starts It Show The Img."
+      "required": true,
       "value": "https://telegra.ph/file/de0013d013b55c4676a36.jpg"
     },
     "PM_IMG": {
       "description": "A Telegraph Link Wen Peoples Starts It Show The Img."
+      "required": true,
       "value": "https://telegra.ph/file/ffa6d8f6d209113283d98.jpg"
     },
     "NAME": {
       "description": "Your Name For Start Text Etc."
+      "required": true,
       "value": "AASFCYBERKING"
     },
     "SUB_CHANNEL": {
       "description": "Channel/Group Username Without @ Symbol Where The User Join Before Using The Bot."
+      "required": true,
       "value": "diebitchlol"
     }
   },
