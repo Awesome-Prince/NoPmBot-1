@@ -7,7 +7,7 @@
 ## Demo Robot [AASFCYBERKINGBOT](https://telegram.dog/AASFCYBERKINGBOT)
 
 ```
-This Bot Is Maded Only For Prevent Spammers To Spam Your Pm And This Bot Was Very Usefull Wen Your Account Limited
+This Bot Is Maded Only For Prevent Spammers To Spam Your Pm And This Bot Was Very Usefull Wen Your Account Was Limited
 And Understand The Orginal Creator Of This Repo is SpEcHiDe I Am Just Updated Him Hardwork 🙏
 ```
 
