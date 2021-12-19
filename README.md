@@ -4,7 +4,7 @@
 *A Simple Pyrogram Based Bot Based On [@LivegramBot](https://t.me/LivegramBot) Made By [SpEcHiDe](https://github.com/SpEcHiDe/NoPMsBot) Updated By [AASFCYBERKING](https://github.com/AASFCYBERKING)*
 
 
-## Demo Robot : [@AASFCYBERKINGBOT](https://telegram.dog/AASFCYBERKINGBOT)
+## Demo Robot [AASFCYBERKINGBOT](https://telegram.dog/AASFCYBERKINGBOT)
 
 ```
 This Bot Is Maded Only For Prevent Spammers To Spam Your Pm And This Bot Was Very Usefull Wen Your Account Limited
