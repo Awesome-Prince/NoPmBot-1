@@ -1,5 +1,5 @@
 # NoPmBot
-(https://telegra.ph/file/f4500e171c32d9ce353ce.jpg)
+![NoPmBot](https://telegra.ph/file/f4500e171c32d9ce353ce.jpg)
 
 
 # Telegram Relay Bot
