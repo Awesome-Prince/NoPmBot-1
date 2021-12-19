@@ -16,7 +16,7 @@ from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
 # wants to add your own text read this https://core.telegram.org/bots/api#html-style 
-START_TEXT = """
+START_TEXT = f"""
 ──「 <a href="{START_IMG}">{NAME}</a> 」──
 <b>Hey Master! ,</b>
 <b>I Am Working Properly With Awesome Speed</b>
