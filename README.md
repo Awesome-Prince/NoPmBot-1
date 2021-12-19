@@ -1,8 +1,7 @@
 # NoPmBot
 ![NoPmBot](https://telegra.ph/file/d72434bcd7b02a6587ce5.jpg)
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
+*A Simple Pyrogram Based Bot Based On [@LivegramBot](https://t.me/LivegramBot) Made By [SpEcHiDe](https://github.com/SpEcHiDe/NoPMsBot) Updated By [AASFCYBERKING](https://github.com/AASFCYBERKING)*
 
 
 ## Demo RoBot
