@@ -29,5 +29,5 @@ There is an [ongoing issue](https://github.com/SpEcHiDe/NoPMsBot/issues/4) which
 
 ## Credits, and Thanks to
 
-* [Lovely Boy](https://t.me/Horimaya) - For Making Worst Readme.md I Ever Seen
+* [Lovely Boy](https://t.me/Horimaya) - For Making Readme.md for a nub
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
