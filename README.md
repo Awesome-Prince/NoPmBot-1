@@ -4,9 +4,7 @@
 *A Simple Pyrogram Based Bot Based On [@LivegramBot](https://t.me/LivegramBot) Made By [SpEcHiDe](https://github.com/SpEcHiDe/NoPMsBot) Updated By [AASFCYBERKING](https://github.com/AASFCYBERKING)*
 
 
-## Available On Telegram As [@AASFCYBERKINGBOT](https://telegram.dog/AASFCYBERKINGBOT)
-
-- [@AASFCYBERKINGBOT]()
+## Available On Telegram [@AASFCYBERKINGBOT](https://telegram.dog/AASFCYBERKINGBOT)
 
 - it is recommended to [use Telegram X](https://telegram.dog/UseTGx/15), to effectively use this Telegram RoBot. 
 There is an [ongoing issue](https://github.com/SpEcHiDe/NoPMsBot/issues/4) which makes, the use of [the official applications](https://telegram.dog/apps), cubersome for the effective utilization of this robot.
