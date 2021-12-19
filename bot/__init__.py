@@ -22,8 +22,12 @@ OWNER_ID = int(get_config(
     )
 )
 
-# Your Bot Start Pic As Telegraph Link
+# Your Username Without @ Symbol Required
+OWNER_USERNAME = get_config("OWNER_USERNAME")
+# Telegraph Link Of Img When If Owner Start.
 START_IMG = get_config("START_IMG")
+# Telegraph Link On Img If Users Starts The Bot.
+PM_IMG = get_config("PM_IMG")
 # Bot Or Your Name
 NAME = get_config("NAME")
 # channel/chat to join before contacting
