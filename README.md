@@ -18,20 +18,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 - it is recommended to [use Telegram X](https://telegram.dog/UseTGx/15), to effectively use this Telegram RoBot. 
 There is an [ongoing issue](https://github.com/SpEcHiDe/NoPMsBot/issues/4) which makes, the use of [the official applications](https://telegram.dog/apps), cubersome for the effective utilization of this robot.
 
-## How to setup/deploy.
+## Heroku deploy.
 
-### Read these notes carefully before proceeding 
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot.
-
-<details>
-  <summary>Steps to deploy on Heroku !!</summary>
-
-```
-Fill in all the details, Deploy!
-Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
-REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
-Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
-```
 
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AASFCYBERKING/NoPmBot.git)
 
