@@ -10,7 +10,7 @@ services:
       - pgdata:/var/lib/posgresql/data
   nopmsbot:
     build:
-      context: https://github.com/SpEcHiDe/NoPMsBot.git#master
+      context: https://github.com/AASFCYBERKING/NoPmBot.git#Aasf
     command: python -m bot
     depends_on:
       - db
