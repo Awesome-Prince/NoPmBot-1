@@ -1,20 +1,18 @@
 {
-  "name": "No PMs Bot",
-  "description": "Modular  Telegram Bot powered by @PyroGram!",
-  "logo": "https://telegra.ph/file/55501e726922e79b8eea9.png",
+  "name": "No PM Bot",
+  "description": "Modular  Telegram Bot powered by @PyroGram Upgraded By @Aasfcyberking",
+  "logo": "https://telegra.ph/file/4062708e65d103dd712d7.jpg",
   "keywords": [
     "telegram",
     "bot",
-    "plugin",
-    "modular",
-    "productivity",
-    "relay",
+    "livegram",
+    "nopm",
+    "aasf",
     "channel",
-    "administrators"
+    "pyrogram"
   ],
-  "repository": "https://github.com/SpEcHIDe/NoPMsBot",
-  "website": "https://telegram.dog/SpEcHlDe",
-  "success_url": "https://t.me/SpEcHlDe/571",
+  "repository": "https://github.com/AASFCYBERKING/NoPMBot",
+  "website": "https://telegram.dog/AASFCYBERKING",
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal"
