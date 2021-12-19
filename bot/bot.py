@@ -8,7 +8,6 @@ from bot import (
     API_HASH,
     APP_ID,
     OWNER_ID,
-    OWNER_USERNAME,
     PM_IMG,
     LOGGER,
     START_COMMAND,
@@ -22,7 +21,7 @@ START_TEXT = f"""
 <b>Whassup Buddy !
 Thx For Using Me </b><a href="{PM_IMG}">🙏</a>
 
-<b>You Can Contact My</b> <a href="https://t.me/{OWNER_USERNAME}">Owner</a> <b>By Me</b>
+<b>You Can Contact My</b> <a href="tg://user?id={OWNER_ID}">Owner</a> <b>By Me</b>
 
 <a href="https://github.com/AASFCYBERKING/NoPmBot">My Repo Was Public Click Here 🌹</a>
 
