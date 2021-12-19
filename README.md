@@ -20,3 +20,5 @@ And Understand The Orginal Creator Of This Repo is SpEcHiDe I Am Just Updated Hi
 <b> • [SpEcHiDe](https://github.com/SpEcHiDe/NoPMsBot) - A Fork Of Him Hardwork Without Him Hardwork This Repo Is Not Possible
 * [Lovely Boy](https://t.me/Horimaya) - A Only One Person Who Supported On This Repo
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)</b>
+
+<b> Every Star 🌟 = A Encourage For My And SpEcHiDe Hardwork 🙏 </b>
