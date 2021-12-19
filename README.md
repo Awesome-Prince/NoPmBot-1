@@ -25,7 +25,7 @@ There is an [ongoing issue](https://github.com/SpEcHiDe/NoPMsBot/issues/4) which
 
 </details>  
 <details>
-  <summary>Steps to self Host!! </summary>
+  <summary>Creadits!! </summary>
 
 ## Credits, and Thanks to
 
