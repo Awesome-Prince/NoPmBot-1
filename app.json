@@ -26,11 +26,14 @@
     "OWNER_ID": {
       "description": "Seperate user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @SerenaYvonneRobot"
     },
-    "START_PIC": {
-      "description": "Your Name For Start Text Etc."
+    "START_IMG": {
+      "description": "A Telegraph Link Wen Owner Starts It Show The Img."
+    },
+    "PM_IMG": {
+      "description": "A Telegraph Link Wen Peoples Starts It Show The Img."
     },
     "NAME": {
-      "description": "A Telegraph Link Wen Peoples Starts It Show The Img."
+      "description": "Your Name For Start Text Etc."
     },
     "SUB_CHANNEL": {
       "description": "Channel/Group Username Without @ Symbol Where The User Join Before Using The Bot."
