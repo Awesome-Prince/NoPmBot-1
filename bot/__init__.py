@@ -21,6 +21,11 @@ OWNER_ID = int(get_config(
         should_prompt=True
     )
 )
+
+# Your Bot Start Pic As Telegraph Link
+START_IMG = get_config("START_IMG")
+# Bot Or Your Name
+NAME = get_config("NAME")
 # channel/chat to join before contacting
 SUB_CHANNEL = get_config("SUB_CHANNEL")
 # sqlalchemy Database for the bot to operate
